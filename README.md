@@ -1,8 +1,11 @@
 # hosts
 ---
 > [hosts来源于laod.cn | 更新于:2017-02-09]
+
 ### 如何下载
-Linux:``
+Linux:`git clone https://github.com/wwwxmu/hosts/linux/hosts`
+Mac & Win: `git clone https://github.com/wwwxmu/hosts/win&mac/hosts`
+
 ### hosts所在文件夹：
 Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts
 Android（安卓）系统hosts位于 /etc/hosts
@@ -38,9 +41,13 @@ Linux系统hosts位于 /etc/hosts
 ### 注意
 Google、Gmail、维基百科、Twitter、Facebook等必须请用https加密方式打开。
 一般这些网站都是SSL加密链接，如：
+
 谷歌学术：https://scholar.google.com/
+
 谷歌：https://www.google.com/ncr
+
 谷歌香港：https://www.google.com.hk/ncr
+
 Twitter：https://twitter.com/?lang=zh-cn
 
 另外可能有的地区&网络（铁通、联通）hosts无法正常使用，这个不是你我能左右的！
