@@ -3,39 +3,26 @@
 > [hosts来源于laod.cn | 更新于:2017-02-09]
 
 ### 如何下载
-Linux:`git clone https://github.com/wwwxmu/hosts/linux/hosts`
-
-Mac & Win: `git clone https://github.com/wwwxmu/hosts/win&mac/hosts`
+`git clone https://github.com/wwwxmu/hosts_linux.git`
 
 ### hosts所在文件夹：
-Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts
 Android（安卓）系统hosts位于 /etc/hosts
-Mac（苹果电脑）系统hosts位于 /etc/hosts
-iPhone（iOS）系统hosts位于 /etc/hosts
 Linux系统hosts位于 /etc/hosts
 绝大多数Unix系统都是在 /etc/hosts
 
 ### 修改hosts后生效的方法：
 
-1 Windows
-开始 -> 运行 -> 输入cmd -> 在CMD窗口输入
-`ipconfig /flushdns`
-
-2 Linux
+1 Linux
 终端输入
 `sudo rcnscd restart`
 对于systemd发行版，请使用命令
 `sudo systemctl restart NetworkManager`
 如果不懂请都尝试下
 
-3 Mac OS X
-终端输入
-`sudo killall -HUP mDNSResponder`
-
-4 Android
+2 Android
 开启飞行模式 -> 关闭飞行模式
 
-5 通用方法
+3 通用方法
 拔网线(断网) -> 插网线(重新连接网络)
 (有时候不需要这么做也可以的，反正老D很少刷新DNS，刷新可以更快的解析)
 
