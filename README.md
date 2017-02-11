@@ -1,9 +1,10 @@
 # hosts
----
+
 > [hosts来源于laod.cn | 更新于:2017-02-09]
 
 ### 如何下载
 Linux:`git clone https://github.com/wwwxmu/hosts/linux/hosts`
+
 Mac & Win: `git clone https://github.com/wwwxmu/hosts/win&mac/hosts`
 
 ### hosts所在文件夹：
